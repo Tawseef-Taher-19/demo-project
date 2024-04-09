@@ -1,19 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>all possible box-shadow</title>
+
     <style>
       #example1 {
         border: 1px solid;
         padding: 10px;
-        /* box-shadow: 25px 25px 40px rgba(0, 0, 0, 0.5); /* outside shadow */
-        /* box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5); /* inside shadow */
-        box-shadow: 25px 25px 30px rgba(93, 0, 0, 0.5),
-          -5px -5px 10px rgba(110, 255, 255, 0.5); /* 2 color shadow */
-        box-shadow: 0 0 30px 35px rgba(0, 0, 0, 0.5); /* Blur and Spread Shadow 4side */
-        box-shadow: 5px 10px; /*Horizontal and Vertical Offset Only:*/
-        box-shadow: 5px 5px 10px hsla(120, 100%, 50%, 0.5); /*hsla used instead of rgba */
-        box-shadow: 5px 5px 10px 0 hsla(120, 100%, 50%, 0.5),
-          -5px -5px 10px 0 rgba(0, 0, 255, 0.5); /* 2 color shadow using hsla and rgba */
+        box-shadow: 5px 10px inset;
       }
 
       #example2 {
@@ -21,6 +15,55 @@
         padding: 10px;
         box-shadow: 5px 10px 20px red inset;
       }
+
+      #example3 {
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 25px 25px 40px rgba(0, 0, 0, 0.5); /* outside shadow*/
+        
+      }
+
+      #example4 {
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5); /* inside shadow */
+        
+        
+      }
+
+      #example5 {
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 0 0 30px 35px rgba(0, 0, 0, 0.5); /* Blur and Spread Shadow 4side */
+        
+        
+      }
+
+      #example6 {
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 10px; /*Horizontal and Vertical Offset Only:*/
+        
+        
+      }
+
+      #example7 {
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 5px 10px hsla(120, 100%, 50%, 0.5); /*hsla used instead of rgba */
+        
+        
+      }
+
+      #example8 {
+        border: 1px solid;
+        padding: 10px;
+        box-shadow: 5px 5px 10px 0 hsla(120, 100%, 50%, 0.5),
+          -5px -5px 10px 0 rgba(0, 0, 255, 0.5); /* 2 color shadow using hsla and rgba */
+        
+      }
+
+
     </style>
   </head>
   <body>
@@ -33,5 +76,36 @@
     <div id="example2">
       <p>Inset, red and blur.</p>
     </div>
+
+    <h2></h2>
+    <div id="example3">
+      <p>Inset, red and blur.</p>
+    </div>
+
+    <h2></h2>
+    <div id="example4">
+      <p>Inset, red and blur.</p>
+    </div>
+
+    <h2></h2>
+    <div id="example5">
+      <p>Inset, red and blur.</p>
+    </div>
+
+    <h2></h2>
+    <div id="example6">
+      <p>Inset, red and blur.</p>
+    </div>
+
+    <h2></h2>
+    <div id="example7">
+      <p>Inset, red and blur.</p>
+    </div>
+
+    <h2></h2>
+    <div id="example8">
+      <p>Inset, red and blur.</p>
+    </div>
+
   </body>
 </html>
