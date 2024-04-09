@@ -10,15 +10,16 @@
         padding: 0px;
       }
 
-      fieldset>legend{
-        padding-left:10px;
-      }
-      fieldset>label{
-        padding-left:30px;
-      }
-
       fieldset {
         margin: 50px 15%;
+      }
+
+      fieldset > legend {
+        padding-left: 10px;
+      }
+      fieldset > label {
+        padding-left: 30px;
+        text-transform: capitalize;
       }
     </style>
   </head>
@@ -31,16 +32,16 @@
         <label for="male">
           <input type="radio" name="gender" id="male" value="male" />
           Male </label
-        ><br>
+        ><br />
         <label for="female">
           <input type="radio" name="gender" id="female" value="female" />
           Female </label
-        ><br>
+        ><br />
         <label for="other">
           <input type="radio" name="gender" id="other" value="other" />
-          Other </label>
-        <br>
-
+          Other
+        </label>
+        <br />
       </fieldset>
     </form>
   </body>
